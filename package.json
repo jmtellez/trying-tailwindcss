@@ -1,0 +1,29 @@
+{
+  "name": "trying-tailwindcss",
+  "version": "1.0.0",
+  "description": "Testing Tailwindcss utility-first CSS framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmtellez/trying-tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmtellez/trying-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/jmtellez/trying-tailwindcss#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  },
+  "devDependencies": {
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
