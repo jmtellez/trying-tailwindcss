@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/tailwind-workcation/'
+    publicPath: '/trying-tailwindcss/'
 }
